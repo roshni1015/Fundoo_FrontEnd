@@ -1,4 +1,7 @@
 import React from 'react'
+import './TakeNoteThree.css'
+import Box from '@mui/material/Box';
+import Modal from '@mui/material/Modal';
 import { IconButton } from "@mui/material";
 import Tooltip from '@mui/material/Tooltip';
 import AddAlertOutlinedIcon from '@mui/icons-material/AddAlertOutlined'
@@ -8,14 +11,7 @@ import ArchiveOutlinedIcon from '@mui/icons-material/ArchiveOutlined';
 import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 import PushPinOutlinedIcon from '@mui/icons-material/PushPinOutlined';
 import ColorPopper from '../ColorPopper/colorPopper';
-import Box from '@mui/material/Box';
-import { TextareaAutosize } from '@mui/material';
-//import Button from '@mui/material/Button';
-import Modal from '@mui/material/Modal';
 import { TrashNotes } from '../../Service/dataService';
-
-//import TextField from '@mui/material/TextField';
-import './TakeNoteThree.css'
 import { editNotes, archiveNotes } from '../../Service/dataService';
 import DeleteOutlineOutlined from '@mui/icons-material/DeleteOutlineOutlined';
 import { Button } from '@mui/material';
