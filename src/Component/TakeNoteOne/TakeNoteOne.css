@@ -1,0 +1,77 @@
+.takenote{
+    height: 90vh;
+    width: 99.8vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.takenote1{
+    box-sizing: border-box;
+    opacity: 1;
+    position: relative;
+    margin-top: 1%;
+    width: 40vw;
+    height: 6vh;
+    border:1px solid #e0e0e0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+}
+.note1{
+    margin-left: 2%;
+    width: 70%;
+    height: 92%;
+    border: none;
+    outline: none;
+}
+.takenoteIcon{
+    width: 30%;
+    height: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.newnote{
+    width: 9%;
+    height: 52%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .takenote1{
+        width: 75%;
+        margin-left: 7%;
+    }
+    .takenoteIcon{
+        width: 50%;
+    }
+    .newnote{
+        width: 16%;
+        height:65%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 860px) {
+    .takenote1{
+        width: 80%;
+        height: 55%;
+    }
+    .newnote{
+        height: 30%;
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 861px) and (max-width: 1024px) {
+    .takenote1{
+        width: 80%;
+        height: 55%;
+    }
+    .newnote{
+        
+        width: 12%;
+    }
+}

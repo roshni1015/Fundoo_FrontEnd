@@ -1,0 +1,211 @@
+.header{
+    height: 11vh;
+    width: 99vw;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+}
+.header1{
+    width: 14%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    width: 9%;
+    height: 36%;
+}
+.header2{
+    width: 200%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #f1f3f4;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 rgba(65,69,73,.3),0 1px 3px 1px rgba(65,69,73,.15);
+
+}
+.Search{
+    margin-left: 0;
+    margin-right: 0;
+    height: 24px;
+    border-radius: 8px;
+    background: #f1f3f4;
+    border: 1px solid transparent;
+    max-width: 720px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#Searchbar{
+    margin: 0 2px;
+}
+.header3{
+    margin-left: 5%;
+    width: 10%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.logo{
+    width: 13%;
+    height: 42%;
+    margin-right: 5vw;
+    margin-right: 2vw;
+    
+}
+.logo2{
+    width: 13%;
+    height: 42%;
+    margin-right: 5vw;
+    margin-right: 2vw;
+    
+}
+.logo3{
+    width: 13%;
+    height: 42%;
+    margin-right: 5vw;
+    margin-right: 2vw;
+    
+}
+.logo4{
+    width: 13%;
+    height: 42%;
+    margin-right: 5vw;
+    margin-right: 2vw;
+    
+}
+.logolist{
+    width: 13%;
+    height: 42%;
+    margin-right: 5vw;
+    margin-right: 2vw;
+    
+}
+.header4{
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 0%;
+    width: 6%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo1{
+    width: 20%;
+    height: 48%;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header2
+    {
+        display: none;
+    }
+    .logolist{
+        display: none;
+    }
+    .header1{
+        margin-left: 8%;
+    }
+    .header{
+        justify-content:space-evenly;
+    }
+    .menu{
+        width: 35%;
+        height: 30%;
+    }
+    .logo{
+        width: 35%;
+        height: 30%;
+        margin: 10%;
+    }
+    .header3{
+        width: 15%;
+        margin-left: 25%;
+    }
+    .logo1{
+        width: 45%;
+        height: 30%;
+        margin: 7%;
+    }
+    .header4{
+        width: 13%;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 860px) {
+    .header{
+        justify-content: space-between;
+        height: 30%;
+    }
+    .header2{
+        width: 75%;
+        height: 45%;
+        margin-left: 15%;
+        margin-right: -2%
+    }
+    .header1{
+        justify-content:space-between;
+    }
+    .header3{
+        width: 30%;
+    }
+    .header4{
+        width: 20%;
+    }
+    .menu{
+        width: 30%;
+        height: 30%;
+    }
+    .keep{
+        margin-right: 5%;
+        margin-left:5%;
+    }
+}
+
+@media screen and (min-width: 861px) and (max-width: 1024px) {
+    .header{
+        justify-content: space-around;
+        height: 25%;
+    }
+    .menu{
+        width: 30%;
+        height: 30%;
+        margin-left: 6%;
+    }
+    .keep{
+        margin-right: 5%;
+        margin-left:5%;
+    }
+    .header1{
+        justify-content:space-between;
+    }
+    .header2{
+        height: 65%;
+        margin-left: 8%;
+        margin-right: -1%;
+    }
+    .header3{
+        width: 15%;
+    }
+    .logo{
+        width: 30%;
+        height: 30%;
+        margin: 10%;
+    }
+    .logo1{
+        width: 30%;
+        height: 30%;
+        margin: 10%;
+    }
+}

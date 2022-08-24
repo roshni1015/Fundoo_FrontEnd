@@ -1,0 +1,89 @@
+.takenote2{
+    width: 99.8vw;
+    height: 20vh;
+    border: 1px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.takenote2a{
+    box-sizing: border-box;
+    opacity: 1;
+    position: relative;
+    min-height: 105px;
+    margin-top: 1%;
+    margin-right: 0.7%;
+    width: 40vw;
+    height: 18vh;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+}
+.note2a{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 100%;
+    width: 92%;
+    border: none;
+    outline: none;
+}
+.Pin{
+    margin-right: 2%;
+    width: 4%;
+    height: 55%;
+}
+.note2b{
+    margin-left: 2%;
+    width: 95%;
+    height: 35%;
+}
+.takenote{
+    height: 100%;
+    width: 99%;
+    border: none;
+    outline: none;
+}
+.note2c{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+}
+.noteIcons{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icons{
+    width: 5%;
+    height: 50%;
+}
+.close{
+    width: 15%;
+    height: 100%;
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .takenote2a{
+        width: 65%;
+    }
+    .note2c{
+        flex-wrap: wrap;
+    }
+}

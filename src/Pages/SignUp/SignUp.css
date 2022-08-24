@@ -1,0 +1,205 @@
+.box{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.box1{
+    width: 65%;
+    height: 82%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 75%;
+    height: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width: 85%;
+    height: 79%;
+}
+.box3sub1{
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+}
+.box3sub2{
+    margin-top:1%;
+    margin-bottom: 7.5%;
+    border: none;
+    margin: none;
+    width: 90%;
+    height:9%;
+    display: flex;
+    justify-content: flex-start;
+    font-size:165%;
+}
+
+.sub1{
+    width: 55%;
+    height: 50%;
+}
+.box3sub4{
+    margin-top: 9%;
+    width: 100%;
+    height: 1.5%;
+}
+.box3sub5{
+    margin-top: 4%;
+    margin-bottom: 7%;
+    margin-left: 1%;
+    width: 70%;
+    height: 3%;
+    color: rgb(87, 95, 102);
+    font-size: 87%;
+    display: flex;
+    align-items: center;
+}
+.box3sub6{
+    margin-bottom: 2%;
+    width: 100%;
+    height: 7%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box3sub7{
+    width: 95%;
+    height: 2%;
+    display: flex;
+    font-size: 90%;
+    text-align: left;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    color: rgb(87, 95, 102);
+}
+.gmail{
+padding-left: 74%;
+}
+.box3sub8{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+    margin-right: 4%;
+}
+.box3sub9{
+    width: 90%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub2{
+    width: 100%;
+    height: 90%;
+}
+.sub3{
+    width: 48%;
+    height: 100%;
+}
+.box4{
+    width: 55%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.box4sub1{
+    width: 70%;
+    height: 95%;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+.box5{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 20%;
+    background-color: blue;
+    color: white;
+}
+.box6{
+    width: 95%;
+    height: 25%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .box {
+      height:99.8vh;
+      width:100vw;
+      flex-direction: column;
+    }
+    .box4{
+        display: none;
+    }
+    .box1{
+        width: 95%;
+        border: none;
+    }
+    .box2{
+        width: 85%;
+        height: 100%;
+        margin-top: none;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .box3{
+        width: 100%;
+    }
+    .box3sub2{
+        width: 100%;
+    }
+    .box3sub3{
+        width: 100%;
+        height: 19%;
+        flex-direction: column;
+        
+    }
+    .sub1{
+        width: 100%;
+    }
+    .box3sub6{
+        width: 100%;
+        height: 19%;
+        flex-direction: column;
+    }
+    .sub3{
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 860px) {
+    .box4{
+        display: none;
+    }
+    .box1{
+        height: 50%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3sub2{
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 861px) and (max-width: 1024px) {
+
+    .box1{
+        height: 50%;
+        width: 95%;
+    }
+  }
