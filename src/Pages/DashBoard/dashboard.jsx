@@ -18,7 +18,8 @@ function Dashboard() {
         setDrawer(!drawer)
 
     }
-    React.useEffect(() => {getAllNotes().then((res)=>{console.log(res);setNoteArray(res.data.data)}).catch((error)=>{console.log(error)})},[])
+    React.useEffect(() => {
+        getAllNotes().then((res)=>{console.log(res);setNoteArray(res.data.data)}).catch((error)=>{console.log(error)})},[])
     const Array = NoteArray.map(note => <TakeNote3 note={note}/>  )
   return (
     <div>

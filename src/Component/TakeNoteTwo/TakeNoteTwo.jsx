@@ -14,7 +14,7 @@ import { createNotes } from "../../Service/dataService";
 
 
 const Takenote2 = (props) => {
-    const [noteObj, setNoteObj] = React.useState({ Title: '', Descreption: '', Color: '', isArchived: "false"})
+    const [noteObj, setNoteObj] = React.useState({ Title: '', Descreption: '', Color: '', isArchived: false})
 
 const takeTitle = (event) => {
     setNoteObj(prevState => ({ ...prevState, Title: event.target.value }))
@@ -28,7 +28,7 @@ const listenToColorPopper = (color) => {
     setNoteObj(prevState => ({ ...prevState, Color: color }))
 }
 const handleArchive = () => {
-    setNoteObj(prevState => ({ ...prevState, isArchived: "!noteObj.isArchived" }))
+    setNoteObj(prevState => ({ ...prevState, isArchived: true }))
 
 
 }
