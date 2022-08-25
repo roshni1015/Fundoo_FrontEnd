@@ -23,6 +23,7 @@
     padding-top: 3rem;
     justify-content: space-between;
 }
+
 .top{
     display:flex;
     flex-direction:row;
@@ -42,13 +43,15 @@
     padding-left: 4%;
     border:none;
     outline:none;
+    text-align: justify;
+
 
     
 
 }
 .box1{
     min-width:20rem;
-    height: 10rem;
+    min-height: 10rem;
     border:1px solid rgb(150, 150, 150);
     flex-direction:column;
     border-radius:5px;

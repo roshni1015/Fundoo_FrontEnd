@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Popper from '@mui/material/Popper';
 import PaletteOutlinedIcon from '@mui/icons-material/PaletteOutlined';
 import { Button, IconButton, Tooltip } from "@mui/material";
-import { editNotes } from '../../Service/dataService';
 
 
 export default function ColorPopper(props) {

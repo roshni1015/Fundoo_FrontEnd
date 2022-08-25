@@ -96,7 +96,7 @@ const editColor = (event) => {
               <div class="bottom part">
                   <AddAlertOutlinedIcon fontSize='small'/>
                   <PersonAddAltOutlinedIcon fontSize='small'/>
-                  <ColorPopper takeColorpopper = {takeColorpopper} action='update' />
+                  <ColorPopper takeColorpopper = {takeColorpopper} action='update' className='color'/>
                   <InsertPhotoOutlinedIcon fontSize='small'/>
                   <ArchiveOutlinedIcon onClick={isArchive} fontSize='small'/>
                   <DeleteOutlineOutlined onClick={isTrash} fontSize='small'/>

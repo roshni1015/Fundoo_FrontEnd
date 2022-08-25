@@ -79,11 +79,4 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
-    .takenote2a{
-        width: 65%;
-    }
-    .note2c{
-        flex-wrap: wrap;
-    }
-}
+
